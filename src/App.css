@@ -1,5 +1,18 @@
-.App {
-  text-align: center;
+html, body {
+  height: 100vh;
+  margin: 0;
+}
+@media (max-width:900px) {
+  .App {
+    text-align: center;
+    height: 100vh;
+  }
+}
+@media (min-width:900px){
+  .App {
+    text-align: center;
+    height: 100%;
+  }
 }
 
 .App-logo {
@@ -24,8 +37,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +48,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.active-night{
+  background-color: white !important;
+  color: black !important;
+}
+
+.night{
+  background-color: #232634;
+  color:#f3f3f3;
+}
+
+.sun{
+  background-color: #FADC7B;
+  color:#514f73;
+}
+
+.cloud{
+  background-color: #6ff8e7;
+  color:#514f73;
+}
+
+.navbar-container{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+
+.loading {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  
 }

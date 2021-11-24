@@ -1,0 +1,19 @@
+.p-card {
+    text-align: start;
+    margin: 0 !important;
+}
+
+.card{
+    padding: 5px;
+    vertical-align:baseline;
+}
+
+h3 {
+    text-align: center !important;
+    font-weight: normal;
+    margin: auto !important;
+}
+
+figure {
+    margin: 0 !important;
+}
