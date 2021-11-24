@@ -1,8 +1,18 @@
-.weather-image{
+@media (max-width:900px) {
+  .weather-image{
+    max-width: 60%;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+@media (min-width:900px) {
+  .weather-image{
     max-width: 40%;
     align-items: center;
     margin: auto;
   }
+}
 
   .temp{
     font-size: 3.2rem;

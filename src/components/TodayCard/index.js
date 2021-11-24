@@ -7,7 +7,7 @@ export default function index({data, onClick}) {
       {data ? (
           
         <>
-        <p>{clock}</p>
+        <p className="p-min">{clock}</p>
         <figure>
             <img src={data.condition.icon} alt={data.l} />
           </figure>

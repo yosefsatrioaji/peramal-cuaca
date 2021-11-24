@@ -2,13 +2,13 @@ html, body {
   height: 100vh;
   margin: 0;
 }
-@media (max-width:900px) {
+@media (max-width:500px) {
   .App {
     text-align: center;
     height: 100vh;
   }
 }
-@media (min-width:900px){
+@media (min-width:500px){
   .App {
     text-align: center;
     height: 100%;
